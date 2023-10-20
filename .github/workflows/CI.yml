@@ -16,4 +16,6 @@ jobs:
       - name: Create a file
         run: touch /tmp/dhiraj1
       - name: list files
-        run: ls -l
+        run: |
+          cd /tmp
+          ls -l
